@@ -7,6 +7,7 @@ all:
 
 check:
 	@./check_whence.py
+	@./check_duplicates.sh
 
 install:
 	install -d $(DESTDIR)$(FIRMWAREDIR)
